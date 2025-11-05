@@ -1,0 +1,146 @@
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1000px) {
+    .proj {
+        width: 100%;
+        max-width: 720px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    main {
+        margin: 90px auto 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        gap: var(--spacing-md);
+        padding: var(--spacing-sm) var(--spacing-md);
+    }
+
+    nav a {
+        font-size: var(--font-size-xs);
+        padding: var(--spacing-xs) var(--spacing-md);
+    }
+
+    .pf-wrap {
+        width: 190px;
+        height: 190px;
+    }
+
+    .ring {
+        width: 190px;
+        height: 190px;
+    }
+
+    .pf {
+        width: 150px;
+        height: 150px;
+    }
+
+    .hero {
+        gap: var(--spacing-2xl);
+    }
+
+    .contact-cards {
+        flex-direction: column;
+    }
+
+    .contact-card {
+        width: 100%;
+    }
+
+    section.block {
+        padding: var(--spacing-xl);
+        margin: var(--spacing-2xl) auto;
+    }
+
+    .exp-edu {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 60px;
+    }
+
+    nav {
+        gap: var(--spacing-sm);
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+
+    main {
+        margin: 80px auto 40px;
+        padding: 0 var(--spacing-md);
+    }
+
+    .pf-wrap {
+        width: 170px;
+        height: 170px;
+    }
+
+    .ring {
+        width: 170px;
+        height: 170px;
+    }
+
+    .pf {
+        width: 135px;
+        height: 135px;
+        border-width: 5px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: var(--font-size-sm);
+    }
+
+    .hero .buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .proj {
+        max-width: 100%;
+    }
+
+    .proj .thumb {
+        height: 220px;
+    }
+
+    section.block {
+        padding: var(--spacing-lg);
+        margin: var(--spacing-xl) auto;
+    }
+
+    section.block h3 {
+        font-size: var(--font-size-xl);
+    }
+
+    .project-grid {
+        gap: var(--spacing-xl);
+    }
+
+    .contact-cards {
+        gap: var(--spacing-md);
+    }
+
+    footer > div {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    footer .social-links {
+        gap: var(--spacing-sm);
+    }
+}
