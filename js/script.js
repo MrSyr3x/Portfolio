@@ -1,4 +1,3 @@
-// ==================== ANIMATE SKILL BARS ON SCROLL ====================
 const bars = document.querySelectorAll('.bar i');
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -11,7 +10,6 @@ const observer = new IntersectionObserver((entries) => {
 
 bars.forEach(bar => observer.observe(bar));
 
-// ==================== ACTIVE NAV LINK ON SCROLL ====================
 const navLinks = document.querySelectorAll('.nav-link');
 const sections = document.querySelectorAll('section');
 
@@ -39,7 +37,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// ==================== SMOOTH SCROLL ====================
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();

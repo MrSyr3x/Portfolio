@@ -1,4 +1,3 @@
-/* ==================== RESET & BASE ==================== */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,7 +21,6 @@ body {
     min-height: 100vh;
 }
 
-/* ==================== HEADER & NAV ==================== */
 header {
     position: fixed;
     top: 0;
@@ -93,14 +91,12 @@ nav a.active {
     color: var(--accent);
 }
 
-/* ==================== MAIN LAYOUT ==================== */
 main {
     max-width: 1200px;
     margin: 110px auto 80px;
     padding: 0 var(--spacing-lg);
 }
 
-/* ==================== HERO SECTION ==================== */
 .hero {
     min-height: 78vh;
     display: flex;
@@ -258,7 +254,6 @@ h1 {
     background: rgba(245, 189, 230, 0.05);
 }
 
-/* ==================== SECTION BLOCKS ==================== */
 section.block {
     margin: var(--spacing-3xl) auto;
     padding: var(--spacing-2xl);
@@ -289,7 +284,6 @@ section.block h3 {
     }
 }
 
-/* ==================== SKILLS SECTION ==================== */
 .skill {
     margin-bottom: var(--spacing-lg);
 }
@@ -322,7 +316,6 @@ section.block h3 {
     box-shadow: 0 0 20px rgba(245, 189, 230, 0.4);
 }
 
-/* ==================== PROJECTS SECTION ==================== */
 .project-grid {
     display: flex;
     flex-wrap: wrap;
@@ -433,7 +426,6 @@ section.block h3 {
     border: 1px solid rgba(245, 189, 230, 0.2);
 }
 
-/* ==================== EXPERIENCE/EDUCATION ==================== */
 .exp-edu {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -495,7 +487,6 @@ section.block h3 {
     line-height: 1.5;
 }
 
-/* ==================== CONTACT SECTION ==================== */
 .contact-cards {
     display: flex;
     justify-content: center;
@@ -546,7 +537,6 @@ section.block h3 {
     font-size: var(--font-size-base);
 }
 
-/* ==================== FOOTER ==================== */
 footer {
     text-align: center;
     color: var(--muted);
