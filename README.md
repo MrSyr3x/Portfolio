@@ -4,19 +4,6 @@ A modern and responsive **portfolio website** built with **HTML, CSS, and JavaSc
 
 ---
 
-## 📖 Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Preview](#preview)
-- [Future Improvements](#future-improvements)
-- [Credits](#credits)
-- [License](#license)
-
----
-
 ## 🧠 About
 
 This is a **personal portfolio project** to display your professional background, skills, and creative work in a visually appealing way.  
@@ -88,19 +75,3 @@ It’s lightweight, fast, and easy to customize — perfect for developers, desi
 - Add custom domain support (e.g., `yourname.dev`)
 
 ---
-
-## 🙌 Credits
-
-Developed by [**MrSyr3x**](https://github.com/MrSyr3x)  
-Inspired by modern minimalist portfolio designs.  
-Icons & assets belong to their respective creators.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — feel free to use, modify, and share!
-
----
-
-> ⭐ **Pro tip:** Don’t forget to star the repository if you like it!
