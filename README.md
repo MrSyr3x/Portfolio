@@ -73,7 +73,7 @@ It’s lightweight, fast, and easy to customize — perfect for developers, desi
 
 ## 🖼️ Preview
 
-![Portfolio Screenshot](assets/images/preview.png)
+![Portfolio Screenshot](assets/Image.png)
 
 > _(Optional: Replace with your actual screenshot for better presentation.)_
 
