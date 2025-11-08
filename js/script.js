@@ -81,3 +81,13 @@ function updateActiveLinks(current) {
         }
     });
 }
+
+function checkViewportWidth() {
+    if (window.innerWidth > 768 && mobileMenu.classList.contains('open')) {
+        closeMobileMenu();
+    }
+}
+
+window.addEventListener('resize', checkViewportWidth);
+
+checkViewportWidth();
