@@ -1,5 +1,5 @@
 :root {
-    /* Color Palette - Catppuccin Macchiato */
+    
     --bg-base: #1e2030;
     --bg-surface: #23243a;
     --bg-overlay: #2f3246;
@@ -9,14 +9,14 @@
     --accent-dark: #d98ef5;
     --accent-light: #f8d7f0;
     
-    /* Semantic Colors */
+    
     --bg: var(--bg-base);
     --bg2: var(--bg-surface);
     --card: var(--bg-overlay);
     --text: var(--text-primary);
     --muted: var(--text-secondary);
     
-    /* Spacing System */
+    
     --spacing-xs: 4px;
     --spacing-sm: 8px;
     --spacing-md: 12px;
@@ -26,7 +26,7 @@
     --spacing-3xl: 48px;
     --spacing-4xl: 64px;
     
-    /* Typography */
+    
     --font-family-main: "Inter", system-ui, -apple-system, sans-serif;
     --font-family-display: "Poppins", system-ui, sans-serif;
     --font-size-xs: 12px;
@@ -38,19 +38,19 @@
     --font-size-3xl: 36px;
     --font-size-4xl: 48px;
     
-    /* Border Radius */
+    
     --radius-sm: 8px;
     --radius-md: 12px;
     --radius-lg: 14px;
     --radius-xl: 18px;
     --radius-full: 999px;
     
-    /* Transitions */
+    
     --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
     --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: 350ms cubic-bezier(0.2, 0.9, 0.2, 1);
     
-    /* Shadows */
+    
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.12);
     --shadow-md: 0 8px 40px rgba(0, 0, 0, 0.55);
     --shadow-lg: 0 30px 70px rgba(245, 189, 230, 0.12);
